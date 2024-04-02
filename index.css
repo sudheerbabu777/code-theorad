@@ -1,0 +1,222 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto";
+}
+
+.left-nav-bar {
+    height: auto;
+    width: 20%;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0p 16px 4px 0px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contain-body {
+    height: 100%;
+    width: 80%;
+    background-color: #bdb9b9;
+    background-size: cover;
+
+}
+
+.arrow-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    height: 18px;
+}
+
+.arrow {
+    height: 22px;
+    width: 22px;
+}
+
+.logo {
+    font-size: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.nav-images {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+    color: #159178;
+    font-family: sans-serif;
+    margin: 24px 0px;
+    font-weight: 600;
+
+}
+
+.top-container {
+    height: 25%;
+    width: 98%;
+    background-color: #121E48;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF1A;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.search {
+    height: 30px;
+    width: 30px;
+}
+
+.input-bar {
+    background-color: transparent;
+    padding: 12px;
+    border: none;
+    outline: none;
+    color: #bfbfbf;
+    font-size: 16px;
+}
+
+.notifications {
+    height: 40px;
+    background-color: #FFFFFF1A;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+
+.search-super-container {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+
+
+}
+
+.title-container {
+    align-self: flex-start;
+}
+
+.head {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.head1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contain-main {
+    height: 75;
+    width: 100%;
+    background-color: #bdb9b9;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.finance-box {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 8px;
+    list-style-type: none;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.type-finance {
+    font-size: 18px;
+    color: #7c7979;
+    margin: 0px;
+
+}
+
+.money {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 4px;
+    font-family: sans-serif;
+}
+
+.finacnae-image {
+    align-self: self-end;
+}
+
+.list-finacnea {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #a09e9e;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.project-container {
+    padding: 12px;
+    width: 90%;
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 100px;
+    list-style-type: none;
+
+}
+
+.projet-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.event-container{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+
+}
